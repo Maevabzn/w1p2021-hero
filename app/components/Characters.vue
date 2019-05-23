@@ -4,11 +4,15 @@
     <h1>{{ message }}</h1>
      
     <br />
-    <div>
+    <div class="container">
+      <div class="first">
     <a @click.prevent="select('sandy')" ><img src="../assets/images/characters-sandy.png" ></a>
-   
+   <h2>Sandy</h2>
+   </div>
+   <div class="second">
     <a @click.prevent="select('patrick')"><img src="../assets/images/characters-patrick.png" ></a>
-     
+     <h2>Patrick</h2>
+
     </div>
    
     <br />
@@ -26,8 +30,29 @@
 img{
   width:20vw;
 }
-.active{
-  border: blue;
+ 
+h2{
+  color: white;
+  text-decoration: none;
+  background: #5BC4F1;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size:30px;
+  width: 7vw;
+}
+h1{
+  color: white;
+  text-decoration: none;
+  background: #5BC4F1;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size:30px;
+  width: 25vw;
+}
+.container{
+  display: flex;
 }
 </style>
 

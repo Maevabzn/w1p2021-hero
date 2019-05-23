@@ -1,18 +1,30 @@
 <template>
   <div class="big-header">
-    <audio src="../assets/audio/generique.mp3" type="audio/mpeg"></audio>
+    <audio controls> <source src="../assets/audio/generique.mp3" type="audio/mpeg"></audio>
     <div class="logotype"><img class="logo" src="../assets/images/logo.png" ></div>
     <div class="center">
     <h1>{{ message }}</h1>
     <br />
     <router-link class="button" to="/characters">START</router-link>
     <br />
-   <!--  <button class="button" @click="handleClick">Click me up</button> -->
-
+ 
   </div>
    <img class="characters-gary" src="../assets/images/characters-gary.png" >
   </div>
 </template>
+<style scoped>
+.button {
+  color: #5BC4F1;
+  text-decoration: none;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  font-size:30px;
+}
+</style>
 
 <script>
 import countService from '../services/countService';
