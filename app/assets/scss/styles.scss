@@ -1,0 +1,46 @@
+@import 'reset';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+$hetic-green: #0de595;
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'Roboto';
+}
+.characters-gary {
+  width:15vw;
+}
+
+.big-header {
+  background-image: url("../images/homepage.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.logotype{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: white;
+}
+
+.logo{
+  width:45vw;
+ 
+}
+h1{
+  font-size:45px;
+}

@@ -1,0 +1,165 @@
+{
+  "steps" :[
+    {
+      "id" : 1 ,
+      "questions" : "Comment s'appelle la ville où habite Bob ?" ,
+      "answers" : [
+         "Bikini Bossom",
+         "Bikini Tossom",
+         "Bikini Bottom"
+      ],
+      "answer" : "Bikini Bottom"
+    },
+    {
+      "id" : 2 ,
+      "questions" : "Où travail Bob ?" ,
+      "answers" : [
+         "Au Krab Croustillant",
+         "Au Bar Flottant",
+         "Au Paté de Crab"
+      ],
+      "answer" : "Au Krab Croustillant" 
+    },
+    {
+      "id" : 3,
+      "questions" : "Qui sont les voisins de Bob ? " ,
+      "answers" : [
+         "Patrick et Carlo",
+         "Carlo et Sandy",
+         "Pearl et Plankton"
+      ],
+      "answer" : "Patrick et Carlo" 
+    },
+    {
+      "id" : 4 ,
+      "questions" : "Quel animal est Sandy ?" ,
+      "answers" : [
+         "Un chien",
+         "Un escargot",
+         "Un écureuil"
+      ],
+      "answer" : "Un escargot" 
+    },
+    {
+      "id" : 5 ,
+      "questions" : "D'où vient Sandy ?" ,
+      "answers" : [
+         "D'Amérique",
+         "De Belgique",
+         "Du Texas"
+      ],
+      "answer" : "Du Texas" 
+    },
+    {
+      "id" : 6 ,
+      "questions" : "Quel animal est la fille du capitaine Krabs ?" ,
+      "answers" : [
+         "Un poisson",
+         "Un Cachalot",
+         "Un ours"
+      ],
+      "answer" : "Un Cachalot" 
+    },
+    {
+      "id" : 7 ,
+      "questions" : "Quel fruit est la maison de Bob ?" ,
+      "answers" : [
+         "Un ananas",
+         "Une banane",
+         "Une pomme"
+      ],
+      "answer" : "Un ananas" 
+    },
+    {
+      "id" : 8 ,
+      "questions" : "De quelle couleur est Plankton ?" ,
+      "answers" : [
+         "Rouge",
+         "Vert",
+         "Rose"
+      ],
+      "answer" : "Vert" 
+    },
+    {
+      "id" : 9 ,
+      "questions" : "Où vit Plankton ?" ,
+      "answers" : [
+         "Dans une maison",
+         "Dans la rue",
+         "Dans un seau"
+      ],
+      "answer" : "Dans un seau" 
+    },
+    {
+      "id" : 10 ,
+      "questions" : "Comment s'appelle la femme de Plankton ?" ,
+      "answers" : [
+         "Karine",
+         "Karen",
+         "Karla"
+      ],
+      "answer" : "Karen" 
+    },
+    {
+      "id" : 11 ,
+      "questions" : "De quel instrument joue Carlo ?" ,
+      "answers" : [
+         "Du Hautbois",
+         "De la Clarinette",
+         "De la Trompette"
+      ],
+      "answer" : "De la Clarinette" 
+    },
+    {
+      "id" : 12 ,
+      "questions" : "De quelle couleur est la chemise de Carlo ?" ,
+      "answers" : [
+         "Bleu",
+         "Blanche",
+         "Marron"
+      ],
+      "answer" : "Marron" 
+    },
+    {
+      "id" : 13 ,
+      "questions" : "Comment s'appelle l'escargot de Bob ?" ,
+      "answers" : [
+         "Hary",
+         "Henry",
+         "Gary"
+      ],
+      "answer" : "Gary" 
+    },
+    {
+      "id" : 14 ,
+      "questions" : "Quelle est la particularité de l'escargot de Bob ?" ,
+      "answers" : [
+         "Il aboie",
+         "Il miaule",
+         "Il ne dit rien"
+      ],
+      "answer" : "Il miaule" 
+    },
+    {
+      "id" : 15 ,
+      "backgroundimage":"../assets/images/level-labyrinthe.jpg",
+      "questions" : "Où vit Patrick ?" ,
+      "answers" : [
+         "Dans un ananas",
+         "Sous une pierre",
+         "Dans une maison"
+      ],
+      "answer" : "Sous une pierre" 
+    },
+    {
+      "id" : 16 ,
+      "questions" : "Quel animal est Sandy ?" ,
+      "answers" : [
+         "Un chien",
+         "Un escargot",
+         "Un écureuil"
+      ],
+      "answer" : "Un escargot" 
+    }
+  ]
+}
