@@ -24,6 +24,10 @@
   cursor: pointer;
   font-size:30px;
 }
+h1{
+  color: white;
+}
+
 </style>
 
 <script>

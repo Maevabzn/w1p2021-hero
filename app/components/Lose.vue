@@ -2,9 +2,8 @@
   <div class="big-header">
     <div class="center">
     <h1>{{ message }}</h1>
-    <br />
+    <br/>
     <router-link class="button" to="/">RECOMMENCER</router-link>
-   <!--  <button class="button" @click="handleClick">Click me up</button> -->
   </div>
   
   </div>
@@ -34,7 +33,12 @@
   border: none;
   cursor: pointer;
   font-size:30px;
-  
+}
+.center{
+    background: rgba(91, 196, 241, 0.5);
+    width: 50vw;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
 }
 </style>
 
@@ -45,7 +49,7 @@ import countService from '../services/countService';
 export default {
   data() {
     return {
-      message: `Tu n'as pas été à la hauteur`
+      message: `TU N'AS PAS ETE A LA HAUTEUR`
     };
   },
   methods: {

@@ -1,6 +1,8 @@
 <template>
   <div class="big-header">
+    <img :src="characterImage">
     <div class="center">
+      
       <div class="container">
       <h1>{{ message }}</h1>
 
@@ -13,9 +15,10 @@
           @click="changePath(step.answer, answer)"
         >{{answer}}</div>
       </section>
+      
       </div>
     </div>
-    <img :src="characterImage">
+    
   </div>
 </template>
 <style scoped>
@@ -25,6 +28,9 @@
   background-size: 100%;
   background-repeat: no-repeat;
   height: 100vh;
+  display: flex;
+  
+  align-items: center;
 }
 img {
   width: 20vw;
@@ -35,13 +41,14 @@ img {
   padding-top: 3vw;
   justify-content: space-between;
   align-items: center;
- 
+
 }
 .container{
-  width: 70vw;
+  width: 60vw;
   text-align: center;
   background: rgba(91, 196, 241, 0.5);
   opacity: 50%;
+  
 }
 .button {
   color: #5BC4F1;
@@ -56,7 +63,22 @@ img {
   margin-bottom:5vh;
   width: 20vw; 
 }
+h1{
+  color: white;
+}
+h2{
+  color: white;
+  font-size: 30px;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  padding-top: 3vw;
+  justify-content: space-between;
+  align-items: center;
+}
 </style>
+
 
 
 <script>
