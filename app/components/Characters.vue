@@ -39,7 +39,6 @@ img{
 h2{
   color: white;
   text-decoration: none;
-  
   padding: 5px;
   border-radius: 5px;
   border: none;
@@ -55,7 +54,6 @@ h1{
 }
 .first{
   background: rgba(221, 242, 251, 0.5);
-  
   display: flex;
   flex-direction: column;
   padding-top: 3vw;
@@ -71,7 +69,7 @@ h1{
   justify-content: space-between;
   align-items: center;
   background: rgba(221, 242, 251, 0.5);
-  margin-left: 40px;
+  margin-left: 41px;
 }
 
 </style>
