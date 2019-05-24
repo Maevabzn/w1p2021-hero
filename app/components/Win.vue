@@ -4,8 +4,7 @@
     <h1>{{ message }}</h1>
     <br />
     <img src="../assets/images/characters-bobgary.png" alt="" srcset="">
-  
-   <!--  <button class="button" @click="handleClick">Click me up</button> -->
+    <router-link class="button" to="/">REJOUER</router-link>
   </div>
   
   </div>
@@ -27,6 +26,17 @@ img{
   flex-wrap: wrap;
   flex-direction: column;
   color: white;
+}
+.button {
+  color: #5BC4F1;
+  text-decoration: none;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  font-size:30px;
 }
 </style>
 

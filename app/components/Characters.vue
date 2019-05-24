@@ -34,6 +34,7 @@
 
 img{
   width:20vw;
+  cursor: pointer;
 }
  
 h2{
