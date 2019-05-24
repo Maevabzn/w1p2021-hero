@@ -37,7 +37,7 @@ img{
   display: inline-block;
   border: none;
   cursor: pointer;
-  font-size:30px;
+  font-size:31px;
 }
 img {
   width: 20vw;
