@@ -3,12 +3,14 @@ import Router from 'vue-router';
 
 import Home from './components/Home.vue';
 import Page from './components/Page.vue';
+import Explain from './components/Explain.vue';
 import Characters from './components/Characters.vue';
 import Levels from './components/Levels.vue';
 import LevelQuiz from './components/Level-Quiz.vue';
-import LevelLabirynthe from './components/Level-Labirynthe.vue';
+
 import Win from './components/Win.vue';
 import Lose from './components/Lose.vue';
+
 
 Vue.use(Router);
 
@@ -37,14 +39,14 @@ const router = new Router({
       component: LevelQuiz,
     },
     {
-      path: '/levellabirynthe',
-      name: 'level labirynthe',
-      component: LevelLabirynthe,
-    },
-    {
       path: '/levels',
       name: 'levels',
       component: Levels,
+    },
+    {
+      path: '/explain',
+      name: 'explain',
+      component: Explain,
     },
     {
       path: '/lose',

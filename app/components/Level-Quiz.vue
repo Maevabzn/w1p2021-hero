@@ -112,24 +112,20 @@ export default {
   methods: {
     changePath(correctAnswer, answer) {
       if (correctAnswer === answer) {
-        this.$router.push({
-          name: "level quiz",
-          params: { id: Number(this.$route.params.id) + 1 }
-        });
-        if (this.$route.params.id === 15) {
+        this.$router.push({ name: "level quiz",params: { id: Number(this.$route.params.id) + 1 }});
+        if (this.$route.params.id === 15 || this.$route.params.id === 30 ) {
           this.$router.push({ name: "win", params: { path: "/win" } });
         }
       } else {
         countService.decrement();
         if (countService.value() <= 0) {
           this.$router.push({ name: "lose", params: { path: "/lose" } });
+          countService.count = 3.
         } else {
-          this.$router.push({
-            name: "level quiz",
-            params: { id: Number(this.$route.params.id) + 1 }
-          });
+          this.$router.push({ name: "level quiz",params: { id: Number(this.$route.params.id) + 1 }});
         }
       }
+      console.log(countService.count);
     }
   }
 };

@@ -5,7 +5,7 @@
     <div class="center">
     <h1>{{ message }}</h1>
     <br />
-    <router-link class="button" to="/characters">START</router-link>
+    <router-link class="button" to="/explain">JOUER</router-link>
     <br />
  
   </div>

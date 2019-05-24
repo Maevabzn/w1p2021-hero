@@ -2,27 +2,17 @@
   "steps" :[
     {
       "id" : 1 ,
-      "questions" : "Comment s'appelle la ville où habite Bob ?" ,
+      "questions" : "Quelle est la couleur du short de Patrick ?" ,
       "answers" : [
-         "Bikini Bossom",
-         "Bikini Tossom",
-         "Bikini Bottom"
+         "Vert et Bleu",
+         "Vert et Mauve",
+         "Vert et Rouge"
       ],
-      "answer" : "Bikini Bottom"
+      "answer" : "Vert et Mauve"
     },
     {
       "id" : 2 ,
-      "questions" : "Où travail Bob ?" ,
-      "answers" : [
-         "Au Krab Croustillant",
-         "Au Bar Flottant",
-         "Au Paté de Crab"
-      ],
-      "answer" : "Au Krab Croustillant" 
-    },
-    {
-      "id" : 3,
-      "questions" : "Qui sont les voisins de Bob ? " ,
+      "questions" : "Qui sont les voisins de Bob ?" ,
       "answers" : [
          "Patrick et Carlo",
          "Carlo et Sandy",
@@ -31,125 +21,134 @@
       "answer" : "Patrick et Carlo" 
     },
     {
-      "id" : 4 ,
-      "questions" : "Quel animal est Sandy ?" ,
-      "answers" : [
-         "Un chien",
-         "Un escargot",
-         "Un écureuil"
-      ],
-      "answer" : "Un escargot" 
-    },
-    {
-      "id" : 5 ,
-      "questions" : "D'où vient Sandy ?" ,
-      "answers" : [
-         "D'Amérique",
-         "De Belgique",
-         "Du Texas"
-      ],
-      "answer" : "Du Texas" 
-    },
-    {
-      "id" : 6 ,
-      "questions" : "Quel animal est la fille du capitaine Krabs ?" ,
-      "answers" : [
-         "Un poisson",
-         "Un Cachalot",
-         "Un ours"
-      ],
-      "answer" : "Un Cachalot" 
-    },
-    {
-      "id" : 7 ,
-      "questions" : "Quel fruit est la maison de Bob ?" ,
-      "answers" : [
-         "Un ananas",
-         "Une banane",
-         "Une pomme"
-      ],
-      "answer" : "Un ananas" 
-    },
-    {
-      "id" : 8 ,
-      "questions" : "De quelle couleur est Plankton ?" ,
-      "answers" : [
-         "Rouge",
-         "Vert",
-         "Rose"
-      ],
-      "answer" : "Vert" 
-    },
-    {
-      "id" : 9 ,
-      "questions" : "Où vit Plankton ?" ,
-      "answers" : [
-         "Dans une maison",
-         "Dans la rue",
-         "Dans un seau"
-      ],
-      "answer" : "Dans un seau" 
-    },
-    {
-      "id" : 10 ,
-      "questions" : "Comment s'appelle la femme de Plankton ?" ,
-      "answers" : [
-         "Karine",
-         "Karen",
-         "Karla"
-      ],
-      "answer" : "Karen" 
-    },
-    {
-      "id" : 11 ,
-      "questions" : "De quel instrument joue Carlo ?" ,
-      "answers" : [
-         "Du Hautbois",
-         "De la Clarinette",
-         "De la Trompette"
-      ],
-      "answer" : "De la Clarinette" 
-    },
-    {
-      "id" : 12 ,
-      "questions" : "De quelle couleur est la chemise de Carlo ?" ,
-      "answers" : [
-         "Bleu",
-         "Blanche",
-         "Marron"
-      ],
-      "answer" : "Marron" 
-    },
-    {
-      "id" : 13 ,
-      "questions" : "Comment s'appelle l'escargot de Bob ?" ,
-      "answers" : [
-         "Hary",
-         "Henry",
-         "Gary"
-      ],
-      "answer" : "Gary" 
-    },
-    {
-      "id" : 14 ,
-      "questions" : "Quelle est la particularité de l'escargot de Bob ?" ,
-      "answers" : [
-         "Il aboie",
-         "Il miaule",
-         "Il ne dit rien"
-      ],
-      "answer" : "Il miaule" 
-    },
-    {
-      "id" : 15 ,
-      "backgroundimage":"../assets/images/level-labyrinthe.jpg",
-      "questions" : "Où vit Patrick ?" ,
+      "id" : 3,
+      "questions" : "Où vit Patrick ? " ,
       "answers" : [
          "Dans un ananas",
          "Sous une pierre",
          "Dans une maison"
       ],
       "answer" : "Sous une pierre" 
+    },
+    {
+      "id" : 4 ,
+      "questions" : "Comment s'appelle le meilleur ami de Bob ?" ,
+      "answers" : [
+         "Carlo",
+         "Patrick",
+         "Gary"
+      ],
+      "answer" : "Patrick" 
+    },
+    {
+      "id" : 5 ,
+      "questions" : "Quelle est la passion de Bob et Patrick ?" ,
+      "answers" : [
+         "Dresser des hyppocampes",
+         "Jouer de la clarinette",
+         "Pêcher des méduses"
+      ],
+      "answer" : "Pêcher des méduses" 
+    },
+    {
+      "id" : 6 ,
+      "questions" : "Patrick et Bob on fait une guerre un jour : Laquelle ?" ,
+      "answers" : [
+         "La guerre de cent ans",
+         "La guerre de l'étoile contre le carré",
+         "La guerre de la crasse contre le propre"
+      ],
+      "answer" : "La guerre de la crasse contre le propre" 
+    },
+    {
+      "id" : 7 ,
+      "questions" : "Patrick a déjà eu un nez un jour ." ,
+      "answers" : [
+         "Vrai !",
+         "Faux !",
+         "Ne cochez pas cette case"
+      ],
+      "answer" : "Vrai !" 
+    },
+    {
+      "id" : 8 ,
+      "questions" : "Les pâtés qui rapportent le plus de clients sont :" ,
+      "answers" : [
+         "Les patés multicolore de Bob",
+         "Les patés spongieux de Bob",
+         "Les patés à la gelée de méduse de Patrick"
+      ],
+      "answer" : "Les patés multicolore de Bob" 
+    },
+    {
+      "id" : 9 ,
+      "questions" : "Bob l'éponge et Patrick sont partis dans une de ces Attractions : Laquelle ?" ,
+      "answers" : [
+         "Le poing Infernal",
+         "Le poing mental",
+         "Le coup de poing infernal"
+      ],
+      "answer" : "Le coup de poing infernal" 
+    },
+    {
+      "id" : 10 ,
+      "questions" : "A quoi ressemble la maison du Capitaine Krabs ?" ,
+      "answers" : [
+         "A un billet",
+         "A une méduse",
+         "A une ancre marine"
+      ],
+      "answer" : "A une ancre marine" 
+    },
+    {
+      "id" : 11 ,
+      "questions" : "Comment s'appelle la plage de Bikini Bottom ?" ,
+      "answers" : [
+         "La Lagune ",
+         "Le Lagon",
+         "Le Grand Large"
+      ],
+      "answer" : "La Lagune" 
+    },
+    {
+      "id" : 12 ,
+      "questions" : "Gary l'escargot de Bob :" ,
+      "answers" : [
+         "Miaule",
+         "Aboie",
+         "Glougloute"
+      ],
+      "answer" : "Miaule" 
+    },
+    {
+      "id" : 13 ,
+      "questions" : "Qui est le Hollandais volant ?" ,
+      "answers" : [
+         "Le maire de Bikini Bottom",
+         "Un fantôme vert",
+         "La star preferée de Bob"
+      ],
+      "answer" : "Un fantôme vert" 
+    },
+    {
+      "id" : 14 ,
+      "questions" : "Quel métier a deja exercé Patrick ?" ,
+      "answers" : [
+         "Plombier",
+         "Docteur",
+         "Vendeur"
+      ],
+      "answer" : "Docteur" 
+    },
+    {
+      "id" : 15 ,
+      "questions" : "Quelle est la ville voisine de Bikini Bottom ?" ,
+      "answers" : [
+         "Rock Bottom",
+         "Jazz Bottom",
+         "Funk Bottom"
+      ],
+      "answer" : "Rock Bottom" 
     },
     {
       "id" : 16 ,
@@ -159,7 +158,149 @@
          "Un escargot",
          "Un écureuil"
       ],
-      "answer" : "Un escargot" 
+      "answer" : "Un écureuil" 
+    },
+    {
+      "id" : 17 ,
+      "questions" : "De quel sport jouent Sandy et Bob ?" ,
+      "answers" : [
+         "Karaté",
+         "Judo",
+         "Lutte"
+      ],
+      "answer" : "Karaté" 
+    },
+    {
+      "id" : 18 ,
+      "questions" : "Où vit Sandy ?" ,
+      "answers" : [
+         "Dans un arbre",
+         "Dans une ancre",
+         "Dans un ananas"
+      ],
+      "answer" : "Dans un arbre" 
+    },
+    {
+      "id" : 19 ,
+      "questions" : "Comment est habillé Sandy ?" ,
+      "answers" : [
+         "Un costume",
+         "Un scaphandre",
+         "Un jogging"
+      ],
+      "answer" : "Un scaphandre" 
+    },
+    {
+      "id" : 20 ,
+      "questions" : "Avec qui vit Sandy ?" ,
+      "answers" : [
+         "Bob",
+         "Seul",
+         "Captain Krabs"
+      ],
+      "answer" : "Seul" 
+    },
+    {
+      "id" : 21 ,
+      "questions" : "D’ou vient Sandy ?" ,
+      "answers" : [
+         "Texas",
+         "Arizona",
+         "Alabana"
+      ],
+      "answer" : "Texas" 
+    },
+    {
+      "id" : 22 ,
+      "questions" : "Qui est le meilleur ami de Sandy ?" ,
+      "answers" : [
+         "Gary",
+         "Larry",
+         "Bob"
+      ],
+      "answer" : "Bob" 
+    },
+    {
+      "id" : 23 ,
+      "questions" : "Comment Bob a t-il rencontrée Sandy l'écureuil ?" ,
+      "answers" : [
+         "En la sauvant d'une coquille St Jacques",
+         "Il la connait depuis l'enfance",
+         "C'était une collègue de travail"
+      ],
+      "answer" : "En la sauvant d'une coquille St Jacques" 
+    },
+    {
+      "id" : 24 ,
+      "questions" : "A quoi s’interesse Sandy ?" ,
+      "answers" : [
+         "La science",
+         "La musique",
+         "L’informatique"
+      ],
+      "answer" : "La science" 
+    },
+    {
+      "id" : 25 ,
+      "questions" : "Sandy a deja eu le mal de mer  ?" ,
+      "answers" : [
+         "Oui",
+         "Non",
+         "Ne cochez pas cette case"
+      ],
+      "answer" : "Non" 
     }
+    ,
+    {
+      "id" : 26 ,
+      "questions" : "Sandy aime t-elle Patrick ?" ,
+      "answers" : [
+        "Oui",
+        "Non",
+        "Ne cochez pas cette case"
+     ],
+     "answer" : "Non" 
+    },
+    {
+      "id" : 27,
+      "questions" : "Sandy passe beaucoup de temps a faire ..." ,
+      "answers" : [
+         "De la musculation",
+         "Du yoga ",
+         "De la pêche"
+      ],
+      "answer" : "De la musculation" 
+    },
+    {
+      "id" : 28,
+      "questions" : "A Bikini Bottom les JO s'appelle les JO:" ,
+      "answers" : [
+        "De la mer",
+        "De la friture",
+        "De la marine"
+      ],
+      "answer" : "De la friture" 
+    },
+    {
+      "id" : 29 ,
+      "questions" : "Quelle est la passion de Carlo ?" ,
+      "answers" : [
+         "L'art",
+         "Le sport",
+         "La science"
+      ],
+      "answer" : "L'art" 
+    },
+    {
+      "id" : 30 ,
+      "questions" : "Quel est le nom des céréales de Bob ?" ,
+      "answers" : [
+         "Linko",
+         "Cracho",
+         "Kelpo"
+      ],
+      "answer" : "Kelpo" 
+    }
+  
   ]
 }
