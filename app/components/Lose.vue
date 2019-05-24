@@ -4,6 +4,7 @@
     <h1>{{ message }}</h1>
     <br/>
     <router-link class="button" to="/">RECOMMENCER</router-link>
+   <video autoplay src="../assets/video/lose.mov" width="150vw" height="150vh"></video>
   </div>
   
   </div>
