@@ -7,6 +7,8 @@ URL du site : https://spongebob2.netlify.com/
 - Mohamed Karoui
 - Maeva Benzina 
 
+## Schema 
+https://i.goopics.net/qoD9l.png
 
 
 
