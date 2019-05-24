@@ -1,5 +1,6 @@
 <template>
   <div class="big-header">
+     <img :src="characterImage">
     <div class="center">
     <h1>{{ message }}</h1>
     <br />
@@ -38,10 +39,14 @@ img{
   cursor: pointer;
   font-size:30px;
 }
+img {
+  width: 20vw;
+}
 </style>
 
 
 <script>
+import characterService from "../services/characterService";
 import countService from '../services/countService';
 
 export default {
@@ -49,6 +54,14 @@ export default {
     return {
       message: `Merci d'avoir retrouvé Gary` 
     };
+  },
+  computed: {
+    character() {
+      return characterService.get();
+    },
+    characterImage() {
+      return characterService.getImage();
+    }
   },
   methods: {
     handleClick() {
